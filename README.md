@@ -129,6 +129,13 @@ CPSC-597-Project/
 
 - Network traffic can be captured using tools such as Wireshark and saved in PCAP format.
 - PCAP files are automatically processed and converted into feature-based CSV format within the pipeline via CICFlowMeter.
-- All code in `cicflowmeter/` was obtained from https://pypi.org/project/cicflowmeter/
 
+## Acknowledgments
+
+- The `cicflowmeter/` module is third-party code obtained from:
+  https://pypi.org/project/cicflowmeter/
+
+- This tool is used in this project for extracting network flow features from PCAP files.
+
+- All rights and licensing for CICFlowMeter belong to the original authors.
 ---
