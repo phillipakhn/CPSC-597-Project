@@ -42,7 +42,7 @@ git clone https://github.com/phillipakhn/CPSC-597-Project.git
 cd CPSC-597-Project
 ```
 
-### Step 2. Create Virtual Environment
+### Step 2. Create Virtual Environment (Optional, but Recommended)
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -58,6 +58,15 @@ pip install -r requirements.txt
 cd Frontend/
 streamlit run app.py
 ```
+Then open:
+http://localhost:8501
+
+## Run the Notebook
+```
+jupyter notebook
+```
+notebooks/IDS_Project_Notebook.ipynb
+
 
 ---
 
@@ -118,17 +127,7 @@ CPSC-597-Project/
 
 ## Notes
 
-- Large datasets and trained models are not included in the repository  
-- Ensure input CSV files match the expected feature schema  
-- The `raw_data/` folder must be manually downloaded and placed in the project directory  
+- Network traffic can be captured using tools such as Wireshark and saved in PCAP format.
+- PCAP files are automatically processed and converted into feature-based CSV format within the pipeline via CICFlowMeter.
 
 ---
-
-## Run the App
-
-```bash
-streamlit run app.py
-```
-
-Then open:
-http://localhost:8501
