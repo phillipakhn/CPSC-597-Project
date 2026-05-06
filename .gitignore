@@ -1,0 +1,9 @@
+venv/
+raw_data/
+generated_csv/
+__pycache__/
+__init__.py
+*.py:Zone.Identifier
+*.csv:Zone.Identifier
+*pkl:Zone.Identifier
+*.ipynb:Zone.Identifier
