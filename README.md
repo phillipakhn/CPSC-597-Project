@@ -70,23 +70,6 @@ notebooks/IDS_Project_Notebook.ipynb
 
 ---
 
-## Project Structure
-```
-CPSC-597-Project/
-│
-├── Frontend/
-├── cicflowmeter/
-├── notebooks/
-├── models/
-├── artifacts/
-├── results/
-├── raw_data/
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## Machine Learning Models
 
 ### 1. Binary Classification
